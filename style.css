@@ -1,0 +1,131 @@
+* {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+header {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#high-scores {
+    color:blueviolet;
+    display: inline;
+}
+
+#timer {
+    float: right;
+    display: inline;
+}
+
+#welcome-page {
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 50px;
+}
+
+#quiz {
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 50px;
+}  
+
+.wrapper {
+    transition-duration: 0.4s;
+    background-color: indigo;
+    color: white;
+    padding: 10px 24px;
+    margin: 25px;
+    border-radius: 8px;
+}
+
+.wrapper:hover {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 24px;
+    margin: 25px;
+    border-radius: 8px;
+}
+
+#done {
+    text-align: left;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 50px;
+}
+
+.btn {
+    transition-duration: 0.4s;
+    background-color: indigo;
+    color: white;
+    padding: 10px 24px;
+    margin: 25px;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 24px;
+    margin: 25px;
+    border-radius: 8px;
+    border: none;
+}
+
+#done-row {
+    margin-top: 20px
+}
+
+#submit-initials {
+    margin: 0px;
+    margin-left: 20px;
+}
+
+#done-left {
+    float: left;
+    width: 100px;
+}
+
+#done-input {
+    float: left;
+}
+
+#submit-initials {
+    display: inline;
+}
+
+#scores {
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 50px;
+}
+
+.score {
+    background-color: lavender;
+    color: black;
+    font-size: 1.5em;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.scores-button {
+    transition-duration: 0.4s;
+    background-color: indigo;
+    color: white;
+    padding: 10px 24px;
+    margin: 25px;
+    border-radius: 8px;
+    border: none;
+    display: inline-block;
+}
+
+.scores-button:hover {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 24px;
+    margin: 25px;
+    border-radius: 8px;
+    border: none;
+}

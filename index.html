@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Quiz</title>
+    <link rel='stylesheet' href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div id="high-scores" type="button">High Scores</div>
+        <div id="timer"></div>
+    </header>
+
+    <section id="welcome-page">
+        <h1 class="title">Coding Quiz Challenge</h1>
+        <div id="instructions">
+            Answer each question as fast as possible. 
+            Try to get the best score by being the fastest to answer correctly. 
+            Each wrong guess will add 10 sec to your time.
+        </div>
+        <button class="btn" id="start-quiz" type="submit">Start Quiz</button>
+    </section>
+
+    <section id="quiz">
+        <h2 id="quiz-question"></h2>
+        <div class="wrapper">
+            <a id="answer-0" class="answer"></a>
+        </div>
+        <div class="wrapper">
+            <a id="answer-1" class="answer"></a>
+        </div>
+        <div class="wrapper">
+            <a id="answer-2" class="answer"></a>
+        </div>
+        <div class="wrapper">
+            <a id="answer-3" class="answer"></a>
+        </div>
+        <hr />
+        <div id="quiz-response"></div>
+    </section>
+
+    <section id="done">
+        <h2>Finished!</h2>
+        <div id="final-score">Your final Score is:</div>
+        <div id="done-row">
+            <div id="done-left">Enter initials:</div>
+                <input id="done-input" type="text" maxlength="3"/>
+            </div>
+            <button class="btn" id="submit-initials" type="submit">Submit</button>
+        </div>
+    </section>
+
+    <section id="scores">
+        <h2 id="high-scores">HIGH SCORES</h2>
+        <div id="scores-0" class="score"></div>
+        <div id="scores-1" class="score"></div>
+        <div id="scores-2" class="score"></div>
+        <div id="scores-row">
+            <button class="scores-button" id="scores-back">Go back</button>
+            <button class="scores-button" id="scores-clear">Clear high scores</button>
+        </div>
+    </section>
+   
+    <script src="script.js"></script>
+</body>
+</html>
